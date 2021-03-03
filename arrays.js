@@ -58,6 +58,8 @@ function removeElementFromBeginningOfArray(array){
 }
 
 function destructivelyRemoveElementFromEndOfArray(){
+  array.pop()
+  return array
 
 }
 
